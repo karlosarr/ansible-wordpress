@@ -1,0 +1,11 @@
+*.retry
+.ansible/
+# Ignore OS-specific files
+DS_Store
+# Ignore editor and IDE specific files
+idea/
+vscode/
+.vscode/
+*.swp
+*.swo
+keys/

@@ -1,0 +1,5 @@
+---
+- hosts: servidores_web
+  become: yes
+  roles:
+    - wordpress

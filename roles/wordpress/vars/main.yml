@@ -1,0 +1,17 @@
+wordpress_db_name: "mi_wordpress_db"
+wordpress_db_user: "wp_user"
+wordpress_db_pass: "mi_contraseña_segura"
+wordpress_db_host: "localhost"
+wordpress_version: "6.9"
+wordpress_site_title: "Mi Sitio WordPress"
+wordpress_admin_user: "admin"
+wordpress_admin_pass: "admin_seguro_123"
+wordpress_admin_email: "admin@example.com"
+wp_install_dir: "/var/www/html"
+php_packages:
+  - php
+  - libapache2-mod-php
+  - php-mysql
+  - php-curl
+  - php-gd
+  - php-mbstring
